@@ -1,14 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
     <title>Conversor de moedas</title>
     <link rel="stylesheet" href="assets/styles/style.css">
 </head>
+
 <body>
-    
+    <div id="container">
+        <header>
+            <h1>Convert Money</h1>
+        </header>
+        <main>
+            <label for="">
+                Converter de
+                <select name="" id="">
+                    <option value="">
+                        R$ Real brasileiro
+                    </option>
+                </select>
+            </label>
+            <label for="">
+                Converter para
+                <select name="" id="">
+                    <option value="">US$ Dólar americano</option>
+                    <option value="">&euro; Euro</option>
+                </select>
+            </label>
+            <label for="">
+                Valor
+                <input type="text" placeholder="R$ 1.000,00">
+            </label>
+            <button type="button">Converter</button>
+            <section>
+                <div>
+                    <img src="assets/imagens/brasil 2.svg" alt="bandeira do brasil">
+                    <p>Real</p>
+                    <p>R$ 1.000,00</p>
+                </div>
+                <img src="assets/imagens/Vector.svg" alt="seta">
+                <div>
+                    <img src="assets/imagens/estados-unidos.svg" alt="bandeira dos estados unidos">
+                    <p>Dólar americano</p>
+                    <p>US$ 191,92</p>
+                </div>
+            </section>
+        </main>
+        <footer>
+        </footer>
+    </div>
 </body>
 <script src="assets/scripts/script.js"></script>
+
 </html>
