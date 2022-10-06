@@ -19,40 +19,40 @@
 <body>
     <div id="container">
         <header>
-            <h1>Convert Money</h1>
+            <h1>CodeClub Convert Money</h1>
         </header>
         <main>
-            <label for="">
-                Converter de
-                <select name="" id="">
+            <label for="" class="container-flex">
+                <p><span>Converter</span> de</p>
+                <select name="" id="" class="square-inputs">
                     <option value="">
                         R$ Real brasileiro
                     </option>
                 </select>
             </label>
-            <label for="">
-                Converter para
-                <select name="" id="">
+            <label for="" class="container-flex">
+                <p><span>Converter</span> para</p>
+                <select name="" id="" class="square-inputs">
                     <option value="">US$ Dólar americano</option>
                     <option value="">&euro; Euro</option>
                 </select>
             </label>
-            <label for="">
-                Valor
-                <input type="text" placeholder="R$ 1.000,00">
+            <label for="" class="container-flex">
+                <p>Valor</p>
+                <input type="text" placeholder="R$ 1.000,00" class="square-inputs">
             </label>
-            <button type="button">Converter</button>
+            <button type="button" class="btn">Converter</button>
             <section>
-                <div>
-                    <img src="assets/imagens/brasil 2.svg" alt="bandeira do brasil">
+                <div class="container-flex container-currency">
+                    <img src="assets/imagens/brasil 2.svg" alt="bandeira do brasil" class="currency-img">
                     <p>Real</p>
-                    <p>R$ 1.000,00</p>
+                    <p class="currency-converted">R$ 1.000,00</p>
                 </div>
-                <img src="assets/imagens/Vector.svg" alt="seta">
-                <div>
-                    <img src="assets/imagens/estados-unidos.svg" alt="bandeira dos estados unidos">
+                <img src="assets/imagens/Vector.svg" alt="seta" class="arrow">
+                <div class="container-flex container-currency">
+                    <img src="assets/imagens/estados-unidos.svg" alt="bandeira dos estados unidos" class="currency-img">
                     <p>Dólar americano</p>
-                    <p>US$ 191,92</p>
+                    <p class="currency-converted">US$ 191,92</p>
                 </div>
             </section>
         </main>
