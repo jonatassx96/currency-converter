@@ -66,6 +66,11 @@ p {
     font-size: 16px;
     line-height: 18px;
     border-style: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: 0 0px 11px 0px black;
 }
 
 .container-flex {
